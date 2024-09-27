@@ -1,0 +1,124 @@
+.customShadow {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.userTable {
+    @apply bg-white
+}
+
+.userTable th {
+    @apply border text-base font-medium
+}
+
+.userTable td {
+    @apply border text-base text-center
+}
+
+.deleteImage {
+    top: -10px;
+    right: -10px;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow: auto;
+    /* Make sure overflow is enabled */
+}
+
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.remove-arrow {
+    -moz-appearance: textfield;
+}
+
+.h-84 {
+    height: 340px;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff0000 !important;
+}
+
+.top-minus {
+    top: -15px;
+}
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+.scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners for the scrollbar thumb */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Darker color on hover */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Background color of the scrollbar track */
+    border-radius: 4px;
+    /* Rounded corners for the scrollbar track */
+}
+
+/* Custom scrollbar for Firefox */
+.scrollbar-custom {
+    scrollbar-width: thin;
+    /* Width of the scrollbar */
+    scrollbar-color: rgba(0, 0, 0, 0.2) #f1f1f1;
+    /* Color of the scrollbar thumb and track */
+}
+
+/* Add more styling as needed */
+
+
+/* Add these styles to your CSS file */
+.dropdown-container {
+    max-height: 200px;
+    /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.dropdown-option {
+    height: 40px;
+    /* Adjust as needed */
+}
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.custom-select__menu::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.custom-select__menu {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
